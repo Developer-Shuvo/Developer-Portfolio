@@ -23,11 +23,26 @@ body {
     padding: 15px 35px;
 }
 
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    font-family: open sans;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 800px;
+}
+
 
 /* ***--------Header related style-------------*** */
 
 .header {
     background-color: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 
@@ -65,21 +80,61 @@ nav a {
 /* ***----------------Banner Style------------------*** */
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
 }
 
 .banner-greetings {
-    /* font-weight: 177px;
-    height: 61px; */
+    font-size: 45px;
+    color: #4a4949ec;
+    margin-bottom: 0px;
 }
 
-.banner-heading {}
+.banner-heading {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-txt {
+    font-size: 20px;
+    line-height: 30px;
+    color: #706b6bfa;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
 
 .profile-pic {
     height: 670px;
     width: 580;
+    padding-right: 100px;
 }
 
 .banner-content {}
+
+
+/* ***-----------------Main section style--------------------*** */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* ***-----------------About section style--------------------*** */
+
+.about {
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 0;
+    text-align: center;
+}
