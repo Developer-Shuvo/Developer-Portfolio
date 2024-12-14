@@ -126,6 +126,11 @@ nav a {
   cursor: pointer;
 }
 
+.button-primary a {
+  color: white;
+  text-decoration: none;
+}
+
 .profile-pic {
   height: 670px;
   width: 580;
@@ -201,11 +206,15 @@ nav a {
 
 .section-title {
   margin-top: -10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .section-description {
   font-size: 20px;
   text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #5e5b5b;
 }
 
 .siderbar-image {
