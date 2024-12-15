@@ -42,7 +42,7 @@ body {
 /* ***--------Header related style-------------*** */
 
 .header {
-  background-color: #f4e6dc;
+  background-color: #f0dede;
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -111,7 +111,7 @@ nav a {
 .banner-txt {
   font-size: 18px;
   line-height: 30px;
-  color: #706b6bfa;
+  color: #696767fa;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 20px;
@@ -145,14 +145,12 @@ nav a {
   padding-bottom: 80px;
 }
 
-/* ***-----------------Main section style--------------------*** */
-
 /* ***-----------------About section style--------------------*** */
 
 .about-main {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #eedbcd;
+  background-color: #efdede;
   border-radius: 10px;
   font-family: "Open Sans";
   font-size: 20px;
@@ -229,6 +227,10 @@ nav a {
   color: #474747;
 }
 
+.what-i-do h1 {
+  color: #181818;
+}
+
 .what-i-do-title {
 }
 
@@ -254,4 +256,16 @@ nav a {
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 5px 10px rgb(139, 138, 138);
+}
+
+/* ***------------------------Resume title------------------------*** */
+
+.resume-title {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  padding-top: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
