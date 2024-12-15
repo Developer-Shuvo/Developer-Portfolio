@@ -185,7 +185,7 @@ nav a {
 .about-info-container {
   display: flex;
   justify-content: space-between;
-  color: #ffda7d;
+  color: #f7dddd;
   text-align: center;
   font-family: "Open Sans";
   font-size: 20px;
@@ -205,7 +205,9 @@ nav a {
 }
 
 .section-title {
-  margin-top: -10px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
@@ -214,8 +216,21 @@ nav a {
   text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #5e5b5b;
+  color: #3e3d3d;
 }
 
-.siderbar-image {
+/* ***-------------------What i do section----------------------*** */
+
+.what-i-do {
+  text-align: center;
+  justify-content: center;
+  padding: 60px 150px;
+  font-size: 20px;
+  color: #474747;
+}
+
+.what-i-do-title {
+}
+
+.what-i-do-description {
 }
